@@ -1,4 +1,4 @@
-# require "pry"
+require "pry"
 require "yaml"
 
 def load_library
@@ -20,7 +20,7 @@ def get_japanese_emoticon(emoticons)
     end
   emo_dic
 end
-# binding.pry
+binding.pry
 
 def get_english_meaning
   emo_dic[:japanese_version]
