@@ -20,8 +20,10 @@ def get_japanese_emoticon(file_path, emoticon)
  emoticons[:grinning]
  emoticons[:happy]
  emoticons[:sad]
-  if emoticons![]
- 
+  if !emoticons[]
+    puts "We apologize.  Unknown Emoticon"
+end
+end
 
 
 def get_english_meaning
