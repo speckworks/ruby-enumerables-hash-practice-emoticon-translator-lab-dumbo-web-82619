@@ -16,7 +16,10 @@ end
   
   
 def get_japanese_emoticon(emoticons)
- 
+ emoticon_hashsource = YAML.load_file("./lib/emoticons.yml")
+emoticons =  {'get_meaning' => {},
+  'get_emoticon' => {}
+}
 
 def get_english_meaning
   emo_dic[:japanese_version]
