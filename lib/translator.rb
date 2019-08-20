@@ -18,8 +18,7 @@ end
 def get_japanese_emoticon(emoticon_hashsource, emoticons)
  emoticon_hashsource = YAML.load_file("./lib/emoticons.yml")
  result = load_library(emoticon_hashsource)[get_emoticon,emoticons]
- resulty ? result 
-    puts "We apologize.  Unknown Emoticon"
+ result ? result: "We apologize.  Unknown Emoticon"
 end
 end
 
