@@ -9,7 +9,7 @@ def get_japanese_emoticon(emoticons)
   emoticons = YAML.load_file(emoticon-translator-lab-dumbo-web-82619/lib/'emoticons.yml')
   emo_dic={}
   emoticons.each do |emoticon , japanese_version|
-  emo_dic[emoticon]{japanese_version => emoticon}}
+  emo_dic[emoticon]japanese_version => emoticon}}
   if !emo_dic[:japanese_version]
         emo_dic[:japanese_version]={}
       end
