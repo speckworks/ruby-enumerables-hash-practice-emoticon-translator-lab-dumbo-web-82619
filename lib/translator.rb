@@ -21,6 +21,7 @@ def get_japanese_emoticon(emoticons)
   emo_dic
 end
 # binding.pry
-# def get_english_meaning
+
+def get_english_meaning
 #   # code goes here
-# end
+end
