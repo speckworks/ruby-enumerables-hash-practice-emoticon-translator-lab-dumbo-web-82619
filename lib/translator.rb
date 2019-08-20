@@ -15,7 +15,7 @@ emoticons
 end
   
   
-def get_japanese_emoticon(file_path, emoticon)
+def get_japanese_emoticon(emoticon_hashsource, )
  emoticon_hashsource = YAML.load_file("./lib/emoticons.yml")
  emoticons[:grinning]
  emoticons[:happy]
