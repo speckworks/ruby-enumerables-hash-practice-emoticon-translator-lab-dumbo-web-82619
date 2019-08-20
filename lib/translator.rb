@@ -10,10 +10,10 @@ def get_japanese_emoticon(emoticons)
   emo_dic={}
   emoticons.each do |emoticon , japanese_version|
   japanese_version.each do |emo_jap,emo_english|
-  if !emo_dic[:japanese_version]
-        emo_dic[:japanese_version]={}
+  if !emo_dic[emo_english]
+        emo_dic[emo_english]={}
       end
-      if !emo_dic[:japanese_version][emoticon]
+      if !emo_dic[japanese_version][emoticon]
         emo_dic[:japanese_version][emoticon=[]
       end
       emo_dic[:japanese_version][emoticon]<< new_val.to_s 
