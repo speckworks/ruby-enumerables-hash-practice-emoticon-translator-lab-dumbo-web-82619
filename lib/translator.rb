@@ -22,7 +22,7 @@ end
   
 def get_japanese_emoticon(emoticon_hashsource,emoticons)
 result = load_library(emoticon_hashsource)['get_emoticon'][emoticons]
-result ? result: "We apologize.  Unknown Emoticon"
+result ? result: "Sorry, that emoticon was not found"
 end
 
 
