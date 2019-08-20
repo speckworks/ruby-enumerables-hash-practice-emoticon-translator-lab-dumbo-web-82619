@@ -29,4 +29,3 @@ end
 def get_english_meaning
   emo_dic[:japanese_version]
 end
-end
