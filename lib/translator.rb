@@ -21,5 +21,9 @@ result ? result: "Sorry, that emoticon was not found"
 end
 
 
-def get_english_meaning(emoticon_hashsource)
+def get_english_meaning(emoticon_hashsource,emoticons)
+result = load_library(emoticon_hashsource)['get_meaning'][emoticons]
+result ? result: "Sorry, that emoticon was not found"
+end 
+  
 end
