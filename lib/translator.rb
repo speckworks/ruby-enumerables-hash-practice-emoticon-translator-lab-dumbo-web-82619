@@ -16,9 +16,8 @@ def get_japanese_emoticon(emoticons)
       if !emo_dic[emo_english][emoticon]
         emo_dic[emo_english][emoticon]=[]
       end
-      emo_dic[japanese_version][emoticon]<< new_val.to_s 
+      emo_dic[japanese_version][emoticon]<< emo_jap.to_s 
     end
-  
   emo_dic
 end
 binding.pry
