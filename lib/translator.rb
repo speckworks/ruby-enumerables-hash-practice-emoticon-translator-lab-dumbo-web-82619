@@ -26,4 +26,3 @@ result = load_library(emoticon_hashsource)['get_meaning'][emoticons]
 result ? result: "Sorry, that emoticon was not found"
 end 
   
-end
