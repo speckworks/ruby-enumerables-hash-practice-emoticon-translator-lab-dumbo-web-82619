@@ -17,10 +17,7 @@ end
   
 def get_japanese_emoticon(emoticon_hashsource, emoticons)
  emoticon_hashsource = YAML.load_file("./lib/emoticons.yml")
- emoticons[:grinning]
- emoticons[:happy]
- emoticons[:sad]
-  if !emoticons[]
+ result
     puts "We apologize.  Unknown Emoticon"
 end
 end
