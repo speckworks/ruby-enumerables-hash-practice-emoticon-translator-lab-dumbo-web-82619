@@ -20,7 +20,7 @@ def get_japanese_emoticon(file_path, emoticon)
  emoticons[:grinning]
  emoticons[:happy]
  emoticons[:sad]
- emoticons[]
+  if emoticons![]
  
 
 
